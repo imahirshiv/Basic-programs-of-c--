@@ -11,6 +11,7 @@ int main(){
         if (array[i]==key)
         {
             ans=i;
+            break;
         }
         
     }
