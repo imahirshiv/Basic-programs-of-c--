@@ -3,7 +3,11 @@ using namespace std;
 int main(){
 
     int arr[5];
-    l
+    for (int i = 0; i < 5; i++)
+    {
+        cout<<arr<<endl;
+    }
+    
 
 
     return 0;
