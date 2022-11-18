@@ -3,16 +3,16 @@ using namespace std;
 int main()
 {
 
-    int a, b, c;
-    cout << "enter a:-";
+    int a, b,temp;
+    cout << "Enter A:-";
     cin >> a;
-    cout << "enter b:-";
+    cout << "Enter B:-";
     cin >> b;
-    a = b;
-    b = c;
-    c = a;
-    cout << a << endl;
-    cout << b << endl;
+    temp =a;
+    a=b;
+    b=temp;
+    cout<<"After swaping A is:-" << a << endl;
+    cout<<"After swaping B is:-" << b << endl;
 
     return 0;
 }
