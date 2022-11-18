@@ -12,7 +12,7 @@ int add(int num1, int num2, int num3)
 }
 int main()
 {
-    int a = 5;
+    int a  =5;
     int b = 6;
     int c = 4;
     cout << add(a, b,4) << endl;
