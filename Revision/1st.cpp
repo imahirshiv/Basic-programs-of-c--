@@ -16,8 +16,10 @@ int main()
  
     //boolen datatype
     bool flag = true;
+    
     cout << flag << endl;
-    float numb = 4.354;
+    double numb = 4.354010203;
+    cout<<numb<<endl;
     cout << sizeof(numb) << endl;
 
     return 0;
