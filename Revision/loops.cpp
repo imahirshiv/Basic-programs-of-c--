@@ -13,11 +13,13 @@ int main(){
         i++;
     }
     do
-    {   i++;
+    {  
+         cout<<"hey i am from do!!"<<endl;
+         i++;
         
     } while (i<10);
-        cout<<"hey i am from do!!"<<endl;
-    
+       
+    return 0;
 
     return 0;
 }
