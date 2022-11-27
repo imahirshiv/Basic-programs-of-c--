@@ -9,6 +9,11 @@ int main(){
     {
         /* code */cout<<arrays[idx]<<endl;
     }
+    cout<<"\n";
+    //for each loop
+    for(int elm:arrays){
+        cout<<elm<<endl;
+    }
     
 
     return 0;
