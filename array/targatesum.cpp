@@ -3,7 +3,7 @@ using namespace std;
 int main(){
 
         int array[]={3,4,6,7,1};
-        int targatesum=7;
+        int targatesum=4;
 
         int size=5;
         int pairs=0;
