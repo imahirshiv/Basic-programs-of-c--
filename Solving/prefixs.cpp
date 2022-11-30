@@ -13,7 +13,9 @@ int main()
 {
 
     int n;
+    cout << "Enter How many element you have in vector: ";
     cin >> n;
+    cout << "Enter those " << n << " Elements: "<<endl;
 
     vector<int> v;
     for (int i = 0; i < n; i++)
