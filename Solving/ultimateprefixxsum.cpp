@@ -1,29 +1,27 @@
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
 using namespace std;
-int main(){
+int main()
+{
     int n;
-    cin>>n;
-    vector<int> v(n+1,0);
+    cin >> n;
+    vector<int> v(n + 1, 0);
     for (int i = 1; i < n; i++)
     {
-        cin>>v[i];
+        cin >> v[i];
     }
-    for (int i = 1; i <n; i++)
+    for (int i = 1; i < n; i++)
     {
-        v[i]+=v[i-1];
+        v[i] += v[i - 1];
     }
     int q;
-    cin>>q;
+    cin >> q;
 
     while (q--)
     {
-        int l,r;
-        cin>>l>>r;
+        int l, r;
+        cin >> l >> r;
     }
-    
-
-
 
     return 0;
 }
