@@ -16,7 +16,7 @@ return max;
 int main(){
      
      int array[]={2,3,5,7,6,1};
-    int largestel=largestelement(array,6);
+    int largestel=largestelementindex(array,6);
 
 
     return 0;
